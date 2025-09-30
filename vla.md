@@ -22,3 +22,6 @@ VLA 模型的研究分为了三个主要方向：
     *   更丰富的多模态融合: 未来还可能融合触觉、听觉等更多模态的信息。
 
 [**RT-1: ROBOTICS TRANSFORMER FOR REAL-WORLD CONTROL AT SCALE**](https://arxiv.org/pdf/2212.06817)
+
+[**RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control**](https://www.alphaxiv.org/abs/2307.15818v1)
+
