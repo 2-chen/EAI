@@ -25,3 +25,12 @@ VLA 模型的研究分为了三个主要方向：
 
 [**RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control**](https://www.alphaxiv.org/abs/2307.15818v1)
 
+* 证明在互联网上训练的视觉语言模型(VLM)可以变成控制机器人执行物理任务的策略模型
+* 将机器人动作语言化：先将连续动作离散化为整数，再映射到语言模型词汇表成为动作Token
+* 共同微调：将机器人动作数据和原始的网络图文数据混合在一起训练，避免模型忘记原有的网络知识
+* 既能理解任务语义，也能负责具体执行动作
+
+[**ROBOTIC TASK GENERALIZATION VIA HINDSIGHT TRAJECTORY SKETCHES**](https://www.alphaxiv.org/abs/2311.01977)
+
+
+
