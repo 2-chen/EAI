@@ -2,8 +2,11 @@
 
 [**Optical generative models**](https://www.alphaxiv.org/abs/2410.17970) 2025.8
 
-
-
+* 光学生成模型：利用光在物理空间中传播和衍射的自然过程来完成复杂的计算
+* 空间光调制器(Spatial Light Modulator, SLM)：每个像素点是光的相位
+* 光学解码器：光穿过SLM后相位上被雕刻种子的信息，再通过衍射层发生复杂的衍射和干涉，相当于矩阵运算，生成最终图像
+* 乘法：振幅乘以透光率
+* 加法：源平面所有子波的叠加
 
 
 [**Improved Denoising Diffusion Probabilistic Models**](https://www.alphaxiv.org/abs/2102.09672) 2021.2
