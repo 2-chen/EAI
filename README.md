@@ -1,3 +1,5 @@
+[**具身智能技术指南**](https://github.com/TianxingChen/Embodied-AI-Guide)
+
 # 视觉基础模型
  * CLIP：图文对比学习(Contrastive Language-Image Pretraining)，把图像和文本压缩到同一空间，计算图像与语义描述的相似度
  * DINO：纯视觉无标签训练
