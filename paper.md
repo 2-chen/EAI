@@ -22,3 +22,4 @@
 [**π0: A Vision-Language-Action Flow Model for General Robot Control**](https://www.alphaxiv.org/abs/2410.24164) 2024.11
 
 * 流匹配：扩散模型的变体，将机器人动作视为连续分布，生成平滑、高频的动作序列
+* 大规模预训练，高质量微调
