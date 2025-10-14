@@ -1,4 +1,4 @@
-[**OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction**](https://www.alphaxiv.org/abs/2509.26633) 2025.9
+[**OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction**](https://www.alphaxiv.org/abs/2509.26633) seminar 2025.9
 
 * OmniRetarget：将人类的动作演示高效地转换为机器人可学习的运动轨迹
 * 不仅转换动作，保留了机器人与物体、环境之间的空间和接触关系，如人类推箱子，转换后要保证机器人的手接触并推动了箱子
@@ -23,3 +23,6 @@
 
 * 流匹配：扩散模型的变体，将机器人动作视为连续分布，生成平滑、高频的动作序列
 * 大规模预训练，高质量微调
+* SDE和PDE:
+* 真机强化学习：
+* 仿真强化学习：
