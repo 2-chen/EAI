@@ -1,17 +1,31 @@
 [**暨南大学博弈论基础**](https://github.com/binwangwork/gameTheory/tree/master)
-# 博弈论简介
+# [博弈论简介](https://github.com/binwangwork/gameTheory/blob/master/%E5%85%88%E5%AF%BC%E8%AF%BE%20%E5%8D%9A%E5%BC%88%E8%AE%BA%E7%AE%80%E4%BB%8B.pdf)
+
+* 决策时考虑其他主体的知识、信念以及决策
+* 扩展式博弈：参与者按顺序行动，信息可能不完全
+* 反向归纳法：从博弈树末端开始往前推到，在最后一个决策点，选择对自己最有利的行动，把选定的行动和收益折叠给上一层的节点，重复该过程到根节点，由此得到的个阶段行动组合称为子博弈精炼均衡
+* 基本要素：参与人、策略空间、收益函数
+* 静态模型中，策略就是行动，动态模型中，策略是行动规则，取决于其他玩家的行动
+* 信息：参与人对收益函数的知识，完全信息是指参与人的收益函数是共同知识，不完全信息是指某些参与人有私人信息
+* 结果，是稳定策略组合中行动的集合，静态博弈中均衡与结果等价
+
+|           | 静态                             | 动态                             |
+|-----------|----------------------------------|----------------------------------|
+| 完全信息   | 完全信息的静态博弈：纳什均衡       | 完全信息的动态博弈：子博弈精炼纳什均衡|
+| 不完全信息 | 不完全信息的静态博弈：贝叶斯纳什均衡| 不完全信息的动态均衡：精炼贝叶斯纳什均衡|
+
 # [完全信息的静态博弈](https://github.com/binwangwork/gameTheory/blob/master/%E4%B8%80.1%20%E5%AE%8C%E5%85%A8%E4%BF%A1%E6%81%AF%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%BC%88.pdf)
 
-# 纳什均衡案例分析
-# 混合策略纳什均衡
-# 完全信息的动态博弈
-# 动态博弈案例分析
-# 两阶段动态博弈和重复博弈
-# 不完全信息的博弈
-# 逆向选择与信号机制
-# 逆向选择与机制设计
-# 道德风险与激励
-# 匹配博弈
+# [纳什均衡案例分析](https://github.com/binwangwork/gameTheory/blob/master/%E4%B8%80.2%20%E7%BA%B3%E4%BB%80%E5%9D%87%E8%A1%A1%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90.pdf)
+# [混合策略纳什均衡](https://github.com/binwangwork/gameTheory/blob/master/%E4%B8%80.3%20%E6%B7%B7%E5%90%88%E7%AD%96%E7%95%A5%E7%BA%B3%E4%BB%80%E5%9D%87%E8%A1%A1.pdf)
+# [完全信息的动态博弈](https://github.com/binwangwork/gameTheory/blob/master/%E4%BA%8C.1%20%E5%AE%8C%E5%85%A8%E4%BF%A1%E6%81%AF%E7%9A%84%E5%8A%A8%E6%80%81%E5%8D%9A%E5%BC%88.pdf)
+# [动态博弈案例分析](https://github.com/binwangwork/gameTheory/blob/master/%E4%BA%8C.2%20%E5%8A%A8%E6%80%81%E5%8D%9A%E5%BC%88%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90.pdf)
+# [两阶段动态博弈和重复博弈](https://github.com/binwangwork/gameTheory/blob/master/%E4%BA%8C.3%20%E4%B8%A4%E9%98%B6%E6%AE%B5%E5%8A%A8%E6%80%81%E5%8D%9A%E5%BC%88%E5%92%8C%E9%87%8D%E5%A4%8D%E5%8D%9A%E5%BC%88.pdf)
+# [不完全信息的博弈](https://github.com/binwangwork/gameTheory/blob/master/%E4%B8%89.1%20%E4%B8%8D%E5%AE%8C%E5%85%A8%E4%BF%A1%E6%81%AF%E7%9A%84%E5%8D%9A%E5%BC%88.pdf)
+# [逆向选择与信号机制](https://github.com/binwangwork/gameTheory/blob/master/%E4%B8%89.2%20%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9%E4%B8%8E%E4%BF%A1%E5%8F%B7%E6%9C%BA%E5%88%B6.pdf)
+# [逆向选择与机制设计](https://github.com/binwangwork/gameTheory/blob/master/%E4%B8%89.3%20%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9%E4%B8%8E%E6%9C%BA%E5%88%B6%E8%AE%BE%E8%AE%A1.pdf)
+# [道德风险与激励](https://github.com/binwangwork/gameTheory/blob/master/%E4%B8%89.4%20%E9%81%93%E5%BE%B7%E9%A3%8E%E9%99%A9%E4%B8%8E%E6%BF%80%E5%8A%B1.pdf)
+# [匹配博弈](https://github.com/binwangwork/gameTheory/blob/master/%E5%9B%9B%20%E5%8C%B9%E9%85%8D%E5%8D%9A%E5%BC%88.pdf)
 
 
 
@@ -20,7 +34,6 @@
 
 
 * 策略式博弈：参与者同时选择策略
-* 扩展式博弈：参与者按顺序行动，信息可能不完全
 * 纳什均衡：参与者都是最优策略
 * 混合策略：参与者在信息集上为每个行动分配概率
 * 纯策略：参与者在每个信息集上选择一个确定的行动
