@@ -25,7 +25,7 @@
 * 重复剔除严格劣势策略：把严格劣势策略从策略空间删去
 * 重复剔除的占优均衡：重复剔除严格劣势策略后唯一的策略组合
 
-| 参与人 | L   | C   | R   |
+| 策略 | L   | C   | R   |
 |--------|-----|-----|-----|
 | T      | (0,4) | (4,0) | (5,3) |
 | M      | (4,0) | (0,4) | (5,3) |
@@ -47,6 +47,25 @@
 * 古诺模型：两家公司选择产量，总产量会影响价格，进而影响利润
 
 # [混合策略纳什均衡](https://github.com/binwangwork/gameTheory/blob/master/%E4%B8%80.3%20%E6%B7%B7%E5%90%88%E7%AD%96%E7%95%A5%E7%BA%B3%E4%BB%80%E5%9D%87%E8%A1%A1.pdf)
+
+* 事件是样本空间的子集，由部分元素组成，如抛骰子中偶数点这个事件是 {2,4,6}
+
+| 策略    | A       | B       |
+|---------|---------|---------|
+| A       | (1,2)   | (0,1)   |
+| B       | (-1,3)  | (2,-1)  |
+
+* 如果参与人1知道参与人2选A的概率为 $\frac{1}{3}$ ，选B的概率为 $\frac{2}{3}$ ，则参与人选A的期望收益为 $1\cdot \frac{1}{3} + 0\cdot \frac{2}{3} = \frac{1}{3}$
+* 混合策略：参与者策略空间 $S_i$ 上的概率分布
+* 纯策略是混合策略的特殊情况，选定其中一个策略概率为1
+* 参与人以 $\{P_{11},\cdots ,p_{1j},\cdots ,p_{1J}\}$ 的概率选择 $\{s_{11},\cdots ,s_{1j},\cdots ,s_{1J}\}$ 的期望收益为
+
+$$
+v_1(P_1, P_2) = \sum_{j=1}^{J} p_{1j} \left( \sum_{k=1}^{K} p_{2k} u_1(s_{1j}, s_{2k}) \right) = \sum_{j=1}^{J} \sum_{k=1}^{K} p_{1j} p_{2k} u_1(s_{1j}, s_{2k})
+$$
+
+* 混合纳什均衡：对于任意 $P_i$ ， $v_i(P_{i}^\* ,P_{-i}^\*)\geq v_i(P_i,P^\*_{-i})$ ，则 $P^\* = \left( P^\* _1,\cdots,P^\*_n \right)$ 为混合策略纳什均衡
+
 # [完全信息的动态博弈](https://github.com/binwangwork/gameTheory/blob/master/%E4%BA%8C.1%20%E5%AE%8C%E5%85%A8%E4%BF%A1%E6%81%AF%E7%9A%84%E5%8A%A8%E6%80%81%E5%8D%9A%E5%BC%88.pdf)
 # [动态博弈案例分析](https://github.com/binwangwork/gameTheory/blob/master/%E4%BA%8C.2%20%E5%8A%A8%E6%80%81%E5%8D%9A%E5%BC%88%E6%A1%88%E4%BE%8B%E5%88%86%E6%9E%90.pdf)
 # [两阶段动态博弈和重复博弈](https://github.com/binwangwork/gameTheory/blob/master/%E4%BA%8C.3%20%E4%B8%A4%E9%98%B6%E6%AE%B5%E5%8A%A8%E6%80%81%E5%8D%9A%E5%BC%88%E5%92%8C%E9%87%8D%E5%A4%8D%E5%8D%9A%E5%BC%88.pdf)
