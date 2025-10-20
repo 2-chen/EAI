@@ -1,23 +1,4 @@
-[**OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction**](https://www.alphaxiv.org/abs/2509.26633) seminar 2025.9
 
-* OmniRetarget：将人类的动作演示高效地转换为机器人可学习的运动轨迹
-* 不仅转换动作，保留了机器人与物体、环境之间的空间和接触关系，如人类推箱子，转换后要保证机器人的手接触并推动了箱子
-* 硬约束保证生成动作的物理可行性，比如杜绝穿模、脚部滑动等问题
-* 硬约束条件：无碰撞，关节限制，足部防滑
-* 数据增强：从一次人类演示中，生成大量训练数据，如基于一次捡箱子演示，生成捡起不同大小、不同初始位置的箱子的动作
-* 由于数据质量高，可以用极简的强化学习方案训练策略，且策略在模拟环境训练好后，可以直接部署到真实的人形机器人上
-* SMP(Skinned Multi-Person Linear Model)：参数化的三维人体模型
-  * 形状参数：静态体型，高矮胖瘦
-  * 姿态参数：动态姿势，关节旋转角
-* 交互网格：构建包含机器人关键点、交互物体表面采样点、以及环境表面采样点的四面体网格
-* 最小化拉普拉斯形变：用拉普拉斯坐标描述网格中每个点相对于其邻居的局部关系，最小化机器人网格和人类网格之间拉普拉斯坐标的差异
-* PHC(Perpetual Humanoid Control)算法：优化整个动作序列，找到能最小化关键节点位置误差的完整关节角轨迹
-* GMR算法：逐帧优化，同时匹配关键点的位置和朝向
-* VideoMimic算法：保持关键点的相对关系，保持身体各部分的结构，不强行匹配世界坐标系的位置
-* IMMA算法：先找到机器人关键点应该处于的理想位置，再根据理想位置求解机器人的实际姿态
-  * 网格变形优化：最小化交互网格从人类到机器人的拉普拉斯形变
-  * 逆运动学求解：根据理想关键点位置求解一个标准IK问题，找到匹配的关节角度
-* OmniRetarget算法：逐帧求解带硬约束的优化问题，最小化交互网格的形变
 
 [**Fabrica: Dual-Arm Assembly of General Multi-Part Objects via Integrated Planning and Learning**](https://www.alphaxiv.org/abs/2506.05168) 2025.6
 
