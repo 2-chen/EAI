@@ -16,7 +16,6 @@
 * 门控更新：使用预训练世界模型进行离线策略评估，判断候选策略比当前策略好才更新
 * 重训练模仿学习：在更新的数据集上重新进行模仿学习训练，突破模仿人类的上限
 * 方差裁剪：在采样时设置方差参数来为动作生成引入随机性，方差表示探索的程度，方差裁剪就是限制最小最大值，防止出现过于离谱的危险动作
-* 
 
 [**IN-THE-FLOW AGENTIC SYSTEM OPTIMIZATION FOR EFFECTIVE PLANNING AND TOOL USE**](https://www.alphaxiv.org/abs/2510.05592) 2025.10
 
