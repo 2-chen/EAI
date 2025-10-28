@@ -1,4 +1,4 @@
-[**RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning**](https://www.alphaxiv.org/abs/2510.14830)
+[**RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning**](https://www.alphaxiv.org/abs/2510.14830) 2025.10
 
 * 模范-强化学习框架：通过统一的策略优化目标(PPO-style)，从学习人类先验到超越人类表现，具体表现为两级马尔可夫决策过程
   * 环境MDP：根据状态 $s_t$ ，执行动作 $a_t$ ，获得奖励 $R_t$
