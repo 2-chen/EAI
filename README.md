@@ -47,6 +47,8 @@
 * 不直接采用当前实际位置，而是采用上一阶段的期望位置，避免误差积累
 * PPO近端策略优化算法：限制每一次更新的幅度，学习更稳定，加入裁剪，比如新策略下采取某动作的概率远比旧策略下的概率大，就下调到某固定上限
 
+[**VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning**](https://www.alphaxiv.org/abs/2505.18719) 2025.5
+
 [**π0.5: a Vision-Language-Action Model with Open-World Generalization**](https://www.alphaxiv.org/abs/2504.16054) 2025.4
 
 * 旨在实现开放世界的泛化能力，能在真实世界中执行复杂任务
@@ -61,7 +63,9 @@
 * 真机强化学习：真实世界
 * 仿真强化学习：物理模拟器
 
+[**From Imitation to Refinement – Residual RL for Precise Visual Assembly**](https://www.alphaxiv.org/abs/2407.16677v1/) 2024.7
 
+[**UNI-O4: UNIFYING ONLINE AND OFFLINE DEEP REINFORCEMENT LEARNING WITH MULTI-STEP ONPOLICY OPTIMIZATION**](https://www.alphaxiv.org/abs/2311.03351) 2024.3
 
 
 **阅读论文prompt**
