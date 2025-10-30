@@ -47,7 +47,6 @@
 * 单一的通用模型：不是多个针对特定任务的独立模型
 * 场景感知追踪：用与训练好的模型作为起点，在动作场景数据上进行微调，策略的输入中加入周围环境的高度图，机器人学习根据地形来调整自己的动作
 * 策略蒸馏：不再需要完整的参考动作作为输入，仅依赖机器人的本体感觉（关节位置、速度等）、局部地形高度图和简单方向指令，改善控制时延
-* 
 
 [**BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion**](https://www.alphaxiv.org/abs/2508.08241) 2025.8
 
