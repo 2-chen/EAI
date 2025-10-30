@@ -1,3 +1,5 @@
+[**ResMimic: From General Motion Tracking to Humanoid Whole-body Loco-Manipulation via Residual Learning**](https://resmimic.github.io/) 2025.10
+
 [**GMT: General Motion Tracking for Humanoid Whole-Body Control**](https://www.alphaxiv.org/abs/2506.14770) 2025.9
 
 [**Generalizable Humanoid Manipulation with 3D Diffusion Policies**](https://www.alphaxiv.org/abs/2410.10803) 2025.9
