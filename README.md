@@ -64,6 +64,7 @@
 
 [**From Imitation to Refinement – Residual RL for Precise Visual Assembly**](https://www.alphaxiv.org/abs/2407.16677v1/) 2024.7
 
+* 残差强化学习框架：在模仿学习训练的基础模型之上，训练一个轻量级的残差模型
 * 
 
 [**UNI-O4: UNIFYING ONLINE AND OFFLINE DEEP REINFORCEMENT LEARNING WITH MULTI-STEP ONPOLICY OPTIMIZATION**](https://www.alphaxiv.org/abs/2311.03351) 2024.3
