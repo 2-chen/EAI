@@ -4,6 +4,10 @@
 
 [**VisualMimic: Visual Humanoid Loco-Manipulation via Motion Tracking and Generation**](https://www.alphaxiv.org/abs/2509.20322) 2025.9
 
+[**Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids**](https://www.alphaxiv.org/abs/2502.20396) 2025.9
+
+[**HDMI: Learning Interactive Humanoid Whole-Body Control from Human Videos**](https://www.alphaxiv.org/abs/2509.16757) 2025.9
+
 [**OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction**](https://www.alphaxiv.org/abs/2509.26633) seminar 2025.9
 
 * OmniRetarget：将人类的动作演示高效地转换为机器人可学习的运动轨迹
@@ -24,6 +28,10 @@
   * 网格变形优化：最小化交互网格从人类到机器人的拉普拉斯形变
   * 逆运动学求解：根据理想关键点位置求解一个标准IK问题，找到匹配的关节角度
 * OmniRetarget算法：逐帧求解带硬约束的优化问题，最小化交互网格的形变
+
+[**BEHAVIOR ROBOT SUITE: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities**](https://www.alphaxiv.org/abs/2503.05652) 2025.8
+
+[**Visual Imitation Enables Contextual Humanoid Control**](https://www.alphaxiv.org/abs/2505.03729) 2025.8
 
 [**BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion**](https://www.alphaxiv.org/abs/2508.08241) 2025.8
 
