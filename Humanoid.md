@@ -1,3 +1,9 @@
+[**GMT: General Motion Tracking for Humanoid Whole-Body Control**](https://www.alphaxiv.org/abs/2506.14770) 2025.9
+
+[**Generalizable Humanoid Manipulation with 3D Diffusion Policies**](https://www.alphaxiv.org/abs/2410.10803) 2025.9
+
+[**VisualMimic: Visual Humanoid Loco-Manipulation via Motion Tracking and Generation**](https://www.alphaxiv.org/abs/2509.20322) 2025.9
+
 [**OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction**](https://www.alphaxiv.org/abs/2509.26633) seminar 2025.9
 
 * OmniRetarget：将人类的动作演示高效地转换为机器人可学习的运动轨迹
@@ -33,6 +39,14 @@
   * 自适应采样：统计在哪些动作片段上失败率高，然后重点采样
   * 通用的奖励函数：追踪误差的惩罚项，不包含特定任务的奖励
   * 领域随机化：对模拟环境的物理参数加入微小的随机扰动
+
+[**Being-0: A Humanoid Robotic Agent with Vision-Language Models and Modular Skills**](https://www.alphaxiv.org/abs/2503.12533) 2025.5
+
+[**AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control**](https://www.alphaxiv.org/abs/2505.03738) 2025.5
+
+[**TWIST: Teleoperated Whole-Body Imitation System**](https://www.alphaxiv.org/abs/2505.02833) 2025.5
+
+[**ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills**](https://www.alphaxiv.org/abs/2502.01143) 2025.4
  
 [**HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit**](https://www.alphaxiv.org/abs/2502.13013) 2025.4
 
@@ -43,4 +57,4 @@
 * 3D打印的同构外骨骼手臂的关节与机器人手臂的关节结构相匹配，无需逆向运动学
 * 基于霍尔传感器的手套成本低，硬件成本特别低（500美元）
 
-
+[**Humanoid-VLA: Towards Universal Humanoid Control with Visual Integration**](https://www.alphaxiv.org/abs/2502.14795) 2025.2
