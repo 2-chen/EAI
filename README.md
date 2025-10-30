@@ -69,7 +69,6 @@
 * 残差模型：强化学习训练，进行微小的纠错和微调
 * 训练残差模型时需要冻结基础模型的所有参数，只在任务成功时给予奖励，避免复杂的人工奖励设计
 * 蒸馏到现实世界：使用训练好的组合策略生成高质量的成功轨迹数据，将轨迹数据渲染为包含RGB图像的合成数据集，利用这些数据训练仅依赖RGB图像的学生策略
-* 
 
 [**UNI-O4: UNIFYING ONLINE AND OFFLINE DEEP REINFORCEMENT LEARNING WITH MULTI-STEP ONPOLICY OPTIMIZATION**](https://www.alphaxiv.org/abs/2311.03351) 2024.3
 
