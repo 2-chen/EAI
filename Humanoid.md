@@ -33,6 +33,10 @@
 
 [**Visual Imitation Enables Contextual Humanoid Control**](https://www.alphaxiv.org/abs/2505.03729) 2025.8
 
+* 机器人通过观看视频学习在复杂真实环境中与物体互动，从真实到模拟再到真实的端到端学习框架VideoMimic
+* 从视频中重建运动中的三维人体姿态和周围环境的三维几何结构
+* 
+
 [**BeyondMimic: From Motion Tracking to Versatile Humanoid Control via Guided Diffusion**](https://www.alphaxiv.org/abs/2508.08241) 2025.8
 
 * 让双足人形机器人在真实世界中稳定复现人类多样化的高动态复杂动作
