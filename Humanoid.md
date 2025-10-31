@@ -1,5 +1,10 @@
 [**SoftMimic: Learning Compliant Whole-body Control from Examples**](https://www.alphaxiv.org/abs/2510.17792) 2025.10
 
+* 让模仿人类动作的人形机器人变得柔顺而不是僵硬
+* 从刚性模仿到柔顺模仿：机器人学会在受到外力时，能像一个弹簧一样，有控制地、柔顺地偏离原轨迹
+* 可控制的刚度：用户可以输入一个刚度指令，即机器人可以在需要精确操作或承受大负载时调高刚度，在需要与人或易碎物体交互时调低刚度
+* 通过离线计算，生成大量在外力下机器人如何柔顺反应的正确示范让机器人学习
+
 [**ResMimic: From General Motion Tracking to Humanoid Whole-body Loco-Manipulation via Residual Learning**](https://resmimic.github.io/) 2025.10
 
 [**GMT: General Motion Tracking for Humanoid Whole-Body Control**](https://www.alphaxiv.org/abs/2506.14770) 2025.9
