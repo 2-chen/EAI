@@ -31,6 +31,8 @@
   * 逆运动学求解：根据理想关键点位置求解一个标准IK问题，找到匹配的关节角度
 * OmniRetarget算法：逐帧求解带硬约束的优化问题，最小化交互网格的形变
 
+[**HuB: Learning Extreme Humanoid Balance**](https://www.alphaxiv.org/abs/2505.07294) 2025.8
+
 [**BEHAVIOR ROBOT SUITE: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities**](https://www.alphaxiv.org/abs/2503.05652) 2025.8
 
 [**Visual Imitation Enables Contextual Humanoid Control**](https://www.alphaxiv.org/abs/2505.03729) 2025.8
@@ -65,11 +67,17 @@
   * 通用的奖励函数：追踪误差的惩罚项，不包含特定任务的奖励
   * 领域随机化：对模拟环境的物理参数加入微小的随机扰动
 
+[**Let Humanoids Hike! Integrative Skill Development on Complex Trails**](https://www.alphaxiv.org/abs/2505.06218) 2025.5
+
+[**FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation**](https://www.alphaxiv.org/abs/2505.06776) 2025.5
+
 [**Being-0: A Humanoid Robotic Agent with Vision-Language Models and Modular Skills**](https://www.alphaxiv.org/abs/2503.12533) 2025.5
 
 [**AMO: Adaptive Motion Optimization for Hyper-Dexterous Humanoid Whole-Body Control**](https://www.alphaxiv.org/abs/2505.03738) 2025.5
 
 [**TWIST: Teleoperated Whole-Body Imitation System**](https://www.alphaxiv.org/abs/2505.02833) 2025.5
+
+[**BeamDojo: Learning Agile Humanoid Locomotion on Sparse Footholds**](https://www.alphaxiv.org/abs/2502.10363) 2025.4
 
 [**ASAP: Aligning Simulation and Real-World Physics for Learning Agile Humanoid Whole-Body Skills**](https://www.alphaxiv.org/abs/2502.01143) 2025.4
  
