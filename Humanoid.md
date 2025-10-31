@@ -69,6 +69,8 @@
   * 通用的奖励函数：追踪误差的惩罚项，不包含特定任务的奖励
   * 领域随机化：对模拟环境的物理参数加入微小的随机扰动
 
+[**RL from Physical Feedback: Aligning Large Motion Models with Humanoid Control**](https://www.alphaxiv.org/abs/2506.12769) 2025.6
+
 [**Let Humanoids Hike! Integrative Skill Development on Complex Trails**](https://www.alphaxiv.org/abs/2505.06218) 2025.5
 
 [**FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation**](https://www.alphaxiv.org/abs/2505.06776) 2025.5
@@ -91,5 +93,7 @@
 * 利用机器人身体对称性来增强数据，翻转左右关节信息、动作指令，创造镜像的数据点
 * 3D打印的同构外骨骼手臂的关节与机器人手臂的关节结构相匹配，无需逆向运动学
 * 基于霍尔传感器的手套成本低，硬件成本特别低（500美元）
+
+[**ExBody2: Advanced Expressive Humanoid Whole-Body Control**](https://www.alphaxiv.org/abs/2412.13196) 2025.3
 
 [**Humanoid-VLA: Towards Universal Humanoid Control with Visual Integration**](https://www.alphaxiv.org/abs/2502.14795) 2025.2
