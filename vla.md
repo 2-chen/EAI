@@ -1,8 +1,5 @@
-# VLA模型
 
-VLA 模型能够接收视觉和语言输入，并据此生成具体动作
-
-[**A Survey on Vision-Language-Action Models for Embodied AI**](https://arxiv.org/pdf/2405.14093)
+[**A Survey on Vision-Language-Action Models for Embodied AI**](https://arxiv.org/pdf/2405.14093) 2025.8
 
 VLA 模型的研究分为了三个主要方向：
 
@@ -21,9 +18,17 @@ VLA 模型的研究分为了三个主要方向：
     *   机器人基础模型: 研发一个能适用于多种不同机器人和任务的通用基础模型。
     *   更丰富的多模态融合: 未来还可能融合触觉、听觉等更多模态的信息。
 
-[**RT-1: ROBOTICS TRANSFORMER FOR REAL-WORLD CONTROL AT SCALE**](https://arxiv.org/pdf/2212.06817)
+[**HybridVLA: Collaborative Diffusion and Autoregression in a Unified Vision-Language-Action Model**](https://www.alphaxiv.org/abs/2503.10631) 2025.6
 
-[**RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control**](https://www.alphaxiv.org/abs/2307.15818v1)
+[**UniVLA: Learning to Act Anywhere with Task-centric Latent Actions**](https://www.alphaxiv.org/abs/2505.06111) 2025.5
+
+[**CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models**](https://www.alphaxiv.org/abs/2503.22020) 2025.3
+
+[**OpenVLA: An Open-Source Vision-Language-Action Model**](https://www.alphaxiv.org/abs/2406.09246) 2024.9
+
+[**RT-1: ROBOTICS TRANSFORMER FOR REAL-WORLD CONTROL AT SCALE**](https://arxiv.org/pdf/2212.06817) 2023.8
+
+[**RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control**](https://www.alphaxiv.org/abs/2307.15818v1) 2023.8
 
 * 证明在互联网上训练的视觉语言模型(VLM)可以变成控制机器人执行物理任务的策略模型
 * 将机器人动作语言化：先将连续动作离散化为整数，再映射到语言模型词汇表成为动作Token
