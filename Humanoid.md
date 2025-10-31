@@ -1,3 +1,5 @@
+[**SoftMimic: Learning Compliant Whole-body Control from Examples**](https://www.alphaxiv.org/abs/2510.17792) 2025.10
+
 [**ResMimic: From General Motion Tracking to Humanoid Whole-body Loco-Manipulation via Residual Learning**](https://resmimic.github.io/) 2025.10
 
 [**GMT: General Motion Tracking for Humanoid Whole-Body Control**](https://www.alphaxiv.org/abs/2506.14770) 2025.9
