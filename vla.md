@@ -1,20 +1,20 @@
+[**SimpleVLA: Scaling VLA Training via Reinforcement Learnin**](https://www.alphaxiv.org/abs/2509.09674) 2025.9
+
+[**DISCRETE DIFFUSION VLA: BRINGING DISCRETE DIFFUSION TO ACTION DECODING IN VISION-LANGUAGE-ACTION POLICIES**](https://www.alphaxiv.org/abs/2508.20072) 2025.8
 
 [**A Survey on Vision-Language-Action Models for Embodied AI**](https://arxiv.org/pdf/2405.14093) 2025.8
 
 VLA 模型的研究分为了三个主要方向：
 
-1.  关键组件: 
+* 关键组件: 
     * 动力学学习：让模型理解物理规律，比如一个物体被推动后会如何运动。
     * 世界模型：让模型在“脑海”中对世界进行模拟和推演，从而进行更长远的规划。
-
-2.  底层控制策略: 模型的“肌肉记忆”和执行能力。这类模型接收具体的指令（如“拿起杯子”），并直接输出机器人手臂的精确动作序列。不同的实现架构：
+* 底层控制策略: 模型的“肌肉记忆”和执行能力。这类模型接收具体的指令（如“拿起杯子”），并直接输出机器人手臂的精确动作序列。不同的实现架构：
     *   基于 Transformer 的模型。
     *   基于扩散模型 (Diffusion Models) 的策略。
     *   以及最新的基于大语言模型 (LLM-based) 的控制策略。
-
-3.  高层任务规划器: 当面对一个复杂、长期的任务时（如“打扫整个房间”），任务规划器负责将其分解成一系列简单的子任务，这些简单的子任务再交由底层的控制策略去执行。
-
-未来方向:
+* 高层任务规划器: 当面对一个复杂、长期的任务时（如“打扫整个房间”），任务规划器负责将其分解成一系列简单的子任务，这些简单的子任务再交由底层的控制策略去执行。
+* 未来方向:
     *   机器人基础模型: 研发一个能适用于多种不同机器人和任务的通用基础模型。
     *   更丰富的多模态融合: 未来还可能融合触觉、听觉等更多模态的信息。
 
@@ -22,7 +22,11 @@ VLA 模型的研究分为了三个主要方向：
 
 [**UniVLA: Learning to Act Anywhere with Task-centric Latent Actions**](https://www.alphaxiv.org/abs/2505.06111) 2025.5
 
+[**Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success**](https://www.alphaxiv.org/abs/2502.19645) 2025.4
+
 [**CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models**](https://www.alphaxiv.org/abs/2503.22020) 2025.3
+
+[**Improving Vision-Language-Action Model with Online Reinforcement Learning**](https://www.alphaxiv.org/abs/2501.16664) 2025.1
 
 [**OpenVLA: An Open-Source Vision-Language-Action Model**](https://www.alphaxiv.org/abs/2406.09246) 2024.9
 
