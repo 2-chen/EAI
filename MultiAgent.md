@@ -61,15 +61,20 @@
 
 [**Local-Canonicalization Equivariant Graph Neural Networks for Sample-Efficient and Generalizable Swarm Robot Control**](https://www.alphaxiv.org/abs/2509.14431) 2025.9
 
-* 为每个智能体创建一个专属的、以自身为中心的局部坐标系，使得每个智能体看到的局部景象都是一致的
+* 为每个智能体创建一个专属的、以自身为中心的局部坐标系，使得每个智能体看到的局部景象都是一致的，x轴速度方向，y轴指向集群重心方向
 * 将机器人集群建模成一个图，通过图神经网络Graphormer处理智能体之间的交互关系
   * Graphormer是为图结构数据定制的Transformer模型，计算每个节点和其他节点的注意力分数，衡量其他节点信息对当前节点决策的重要性
-  * 图神经网络Graphormer具有排列等变性，处理的是是集合而不是序列
+  * Graphormer在Transformer注意力分数的基础上增加中心度编码、距离编码、边特征编码
+
+$$
+\text{AttentionScore}_{ij} = \underbrace{\frac{Q_i \cdot K_j^T}{\sqrt{d_k}}}_{\text{内容相似度}} + \underbrace{b_{SP(i,j)}}_{\text{距离偏置}} + \underbrace{c_{ij}}_{\text{边特征偏置}}
+$$
+
+* 图神经网络Graphormer具有排列等变性，处理的是是集合而不是序列
   * 其计算是在节点和边上进行的，增加或减少智能体知识在图中增加或减少节点，计算方式是通用的，所以对智能体数量具有泛化性
 * 将不同角色的智能体划分到不同的子图中处理，为不同角色学习特定的策略和通信模式
 * 输入转换后的局部观测数据到一个基于角色的异构图神经网络，网络在各角色子图内部处理信息，捕捉同类智能体之间的交互模式，将子图节点信息汇成一个单一的代表该角色整体状态的向量，
 * 智能体输出在局部坐标系下的动作，再通过旋转矩阵换到全局坐标系中
-* 
 
 [**Multi-CAP: A Multi-Robot Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments**](https://www.alphaxiv.org/abs/2509.14941v2) 2025.9
 
