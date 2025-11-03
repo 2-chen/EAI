@@ -1,5 +1,14 @@
 [**SimpleVLA: Scaling VLA Training via Reinforcement Learnin**](https://www.alphaxiv.org/abs/2509.09674) 2025.9
 
+* 在模拟环境中强化学习，减少对人类演示数据的依赖
+* SimpleVLA-RL需演示示例启动，给模型基础能力进而有机会成功，而RL负责在原来轨迹的基础上不断探索
+* RL不仅能学习已有行为，还能发现更优的解决方案，即更容易获得奖励
+* 与环境闭环交互：根据视觉和状态生成动作，执行动作获得新的视觉和状态，指导任务结束获得轨迹
+* 增强探索
+  * 动态采样：确保每个训练批次都有成功和失败的轨迹，避免所有轨迹奖励都一样导致梯度消失，因为GRPO需要计算相对优势，有失败轨迹才能有相对优势，区分轨迹的优劣，进而判断什么是好轨迹
+  * 提高裁剪范围：放宽对低概率动作的限制
+  * 提高采样温度：增加动作选择的随机性
+
 [**DISCRETE DIFFUSION VLA: BRINGING DISCRETE DIFFUSION TO ACTION DECODING IN VISION-LANGUAGE-ACTION POLICIES**](https://www.alphaxiv.org/abs/2508.20072) 2025.8
 
 [**A Survey on Vision-Language-Action Models for Embodied AI**](https://arxiv.org/pdf/2405.14093) 2025.8
