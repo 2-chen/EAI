@@ -41,6 +41,23 @@
 
 [**Conflict-Based Search and Prioritized Planning for Multi-Agent Path Finding Among Movable Obstacles**](https://www.alphaxiv.org/abs/2509.26050) 2025.9
 
+* 多个智能体在可移动障碍物环境中寻找路径
+* 冲突搜索CBS：双层算法，只在必要时解决冲突
+  * 低层级为单个智能体规划最优路径
+  * 高层级检测这些路径之间的冲突，并添加新的约束给低层，比如不能在时间t=5经过位置v
+* 定义新的冲突：传统智能体之间的冲突AA，智能体与箱子AB，箱子与箱子BB
+* CBS-MOH(Movable Obstacles on High-level)：
+  * 在低层级规划时智能体忽略箱子，只当作普通空间
+  * 在高层级模拟，检测智能体的路径是否会导致AA或AB冲突，如果冲突会禁止导致该冲突的智能体的动作来解决
+* CBS-MOL(Movable Obstacles on High-level)：
+  * 低层级规划时每个智能体会考虑所有箱子的初始位置
+  * 将一个为PAMO问题设计的规划器扩展到时空维度，命名为ST-PAMO
+* PP-PAMO：基于优先级规划(PP)的算法，并使用能处理可移动障碍物的规划器
+  * 为智能体设定固定优先级
+  * 从最高优先级的智能体开始依次使用ST-PAMO规划器规划路径
+  * 在低优先级智能体规划路径时，将规划好的高优先级智能体路径视为动态障碍物
+* CBS是最优的，而PP不是，PP解的质量取决于优先级的分配
+
 [**Local-Canonicalization Equivariant Graph Neural Networks for Sample-Efficient and Generalizable Swarm Robot Control**](https://www.alphaxiv.org/abs/2509.14431) 2025.9
 
 [**Multi-CAP: A Multi-Robot Connectivity-Aware Hierarchical Coverage Path Planning Algorithm for Unknown Environments**](https://www.alphaxiv.org/abs/2509.14941v2) 2025.9
@@ -93,4 +110,10 @@
 
 [**Conformal Data-driven Control of Stochastic Multi-Agent Systems under Collaborative Signal Temporal Logic Specifications**](https://www.alphaxiv.org/abs/2504.04615) 2025.4
 
+[**ReloPush: Multi-object Rearrangement in Confined Spaces with a Nonholonomic Mobile Robot Pusher**](https://www.alphaxiv.org/abs/2409.18231) 2025.3
+
 [**REMAC: Self-Reflective and Self-Evolving Multi-Agent Collaboration for Long-Horizon Robot Manipulation**](https://www.alphaxiv.org/abs/2503.22122) 2025.3
+
+[**Multi-Agent Motion Planning with B´ezier Curve Optimization under Kinodynamic Constraints**](https://www.alphaxiv.org/abs/2311.14145) 2024.3
+
+[**Asynchronous Task Plan Refinement for Multi-Robot Task and Motion Planning**](https://www.alphaxiv.org/abs/2309.08897) 2023.9
