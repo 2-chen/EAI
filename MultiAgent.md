@@ -12,7 +12,7 @@
  
 [**CRAFT: Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks**](https://www.alphaxiv.org/abs/2509.14380) 2025.10
 
-* 大语言模型 (LLMs) 和视觉语言模型 (VLMs) 作为自动化教练，教会多机器人系统完成复杂的协作任务
+* LLMs和VLMs作为自动化教练，教会多机器人系统完成复杂的协作任务
 * 利用LLM将复杂目标分解为子任务，用LLM生成奖励函数
 * VLM闭环：
   * 评估：观察机器人执行任务的情况
@@ -111,6 +111,8 @@ $$
 * 应用课程学习提升长期协调能力：在训练中逐步增加专家演示轨迹长度，帮助机器人学习和执行需要长远规划和协调的复杂任务
 * 从全局数据中估计机器人的“自我中心视角”：选择邻居，坐标转换，注入噪声
 
+[**EMBODIEDBENCH: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents**](https://www.alphaxiv.org/abs/2502.09560) 2025.6
+
 [**VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning**](https://www.alphaxiv.org/abs/2506.09049) 2025.6
 
 * 让多种异构机器人在复杂的真实环境中，通过视觉感知进行有效协作
@@ -136,6 +138,14 @@ $$
 * 马尔可夫博弈：环境的下一个状态取决于所有智能体同时执行的动作，每个智能体的奖励取决于自己的动作和其他所有智能体的动作
 
 [**Conformal Data-driven Control of Stochastic Multi-Agent Systems under Collaborative Signal Temporal Logic Specifications**](https://www.alphaxiv.org/abs/2504.04615) 2025.4
+
+[**Large Language Model Agent: A Survey on Methodology, Applications and Challenges**](https://www.alphaxiv.org/abs/2503.21460) 2025.4
+
+[**PLAN-AND-ACT: Improving Planning of Agents for Long-Horizon Tasks**](https://www.alphaxiv.org/abs/2503.09572) 2025.4
+
+[**Enhancing LLM-Based Agents via Global Planning and Hierarchical Execution**](https://www.alphaxiv.org/abs/2504.16563) 2025.4
+
+[**A Framework for Benchmarking and Aligning Task-Planning Safety in LLM-Based Embodied Agents**](https://www.alphaxiv.org/abs/2504.14650) 2025.4
 
 [**ReloPush: Multi-object Rearrangement in Confined Spaces with a Nonholonomic Mobile Robot Pusher**](https://www.alphaxiv.org/abs/2409.18231) 2025.3
 
