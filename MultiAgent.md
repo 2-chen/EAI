@@ -113,6 +113,17 @@ $$
 
 [**VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning**](https://www.alphaxiv.org/abs/2506.09049) 2025.6
 
+* 让多种异构机器人在复杂的真实环境中，通过视觉感知进行有效协作
+* VIKI-Bench基准测试平台：针对异构多智能体协作的层级化基准
+  * L1：智能体激活，根据任务指令和场景图像，判断需要用哪些机器人
+  * L2：任务规划，为被激活的机器人生成一个详细、可行的动作序列，不同类型的机器人有不同的动作指令集
+  * L3：轨迹感知，根据每个智能体的视角预测自己和其他协作伙伴的运动轨迹
+  * 建立在现有模拟器之上(RoboCasa、ManiSki113)，包含超1000种场景，6种不同类型的机器人和超1000种交互物体
+* VIKI-R训练框架：结合监督微调和强化学习的二阶段训练框架
+  * 思维链引导的预热：使用带有思考过程的标注数据对模型进行监督微调，学会解决问题的基本模式和逻辑
+    * 带有思考的标注数据是针对该模拟环境的，使得大模型对齐该模拟环境
+  * 分层奖励信号的强化学习：设计一个与VIKI-Bench三个层级完全对应的分层奖励函数，从是否选对机器人、规划是否可行、轨迹是否准确等多个维度对模型输出进行打分和激励，实现更精细的策略优化
+
 [**Multi-agent embodied ai: Advances and future directions**](https://www.alphaxiv.org/abs/2505.05108) 2025.6
 
 * 多智能体系统的复杂性：通信、协调、冲突解决和信任分配
@@ -128,7 +139,13 @@ $$
 
 [**ReloPush: Multi-object Rearrangement in Confined Spaces with a Nonholonomic Mobile Robot Pusher**](https://www.alphaxiv.org/abs/2409.18231) 2025.3
 
+[**RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints**](https://www.alphaxiv.org/abs/2503.16408) 2025.3
+
 [**REMAC: Self-Reflective and Self-Evolving Multi-Agent Collaboration for Long-Horizon Robot Manipulation**](https://www.alphaxiv.org/abs/2503.22122) 2025.3
+
+[**EMOS: EMBODIMENT-AWARE HETEROGENEOUS MULTI-ROBOT OPERATING SYSTEM WITH LLM AGENTS**](https://www.alphaxiv.org/abs/2410.22662) 2025.2
+
+[**Multi-Agent Collaboration Mechanisms: A Survey of LLMs**](https://www.alphaxiv.org/abs/2501.06322) 2025.1
 
 [**Multi-Agent Motion Planning with B´ezier Curve Optimization under Kinodynamic Constraints**](https://www.alphaxiv.org/abs/2311.14145) 2024.3
 
