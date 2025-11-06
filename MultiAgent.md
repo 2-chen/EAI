@@ -163,6 +163,13 @@ $$
 
 [**PLAN-AND-ACT: Improving Planning of Agents for Long-Horizon Tasks**](https://www.alphaxiv.org/abs/2503.09572) 2025.4
 
+* 提升LLM执行复杂的长时长任务（如网页导航）的能力
+* 规划与执行分离
+  * PLANNER规划器：将用户指令分解成一个结构化的、分步骤地宏观计划
+  * EXECUTOR执行器：接收规划器的每一步计划，并转化为特定环境中可执行的动作（点击、输入文字）
+* 动态规划调整：每执行一步操作，规划器会根据环境反馈重新评估并更新后续计划
+* 数据合成的逆向工程：对一个大模型成功执行任务的轨迹生成对应的高层次计划（好比对一张好看的照片，让模型生成对应的指令，再通过修改指令来修改生成的图片）
+
 [**Enhancing LLM-Based Agents via Global Planning and Hierarchical Execution**](https://www.alphaxiv.org/abs/2504.16563) 2025.4
 
 [**A Framework for Benchmarking and Aligning Task-Planning Safety in LLM-Based Embodied Agents**](https://www.alphaxiv.org/abs/2504.14650) 2025.4
