@@ -73,7 +73,7 @@ VLA 模型的研究分为了三个主要方向：
 * 事后轨迹标注：提取成功示例中末端执行器的三维轨迹，投影到机器人二维视角下，生成包含轨迹线的图像
 * 通过轨迹草图连接语言指令和动作执行，也能从大量视频数据中提取动作信息来学习，避免数据浪费
 
-[AUTORT: EMBODIED FOUNDATION MODELS FOR LARGE SCALE ORCHESTRATION OF ROBOTIC AGENTS](https://www.alphaxiv.org/abs/2401.12963)
+[**AUTORT: EMBODIED FOUNDATION MODELS FOR LARGE SCALE ORCHESTRATION OF ROBOTIC AGENTS**](https://www.alphaxiv.org/abs/2401.12963)
 
 * 大规模、自动化地在真实世界中收集机器人操作数据的框架
 * 利用视觉模型观察环境，利用语言模型自主提出有意义、可执行的任务
