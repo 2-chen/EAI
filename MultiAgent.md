@@ -1,3 +1,23 @@
+[**Manifold-constrained Hamilton-Jacobi Reachability Learning for Decentralized Multi-Agent Motion Planning**](https://www.alphaxiv.org/abs/2511.03591v1) 2025.11
+
+[**Global-State-Free Obstacle Avoidance for Quadrotor Control in Air-Ground Cooperation**](https://www.alphaxiv.org/abs/2510.24315) 2025.10
+
+[**Few-Shot Demonstration-Driven Task Coordination and Trajectory Execution for Multi-Robot Systems**](https://www.alphaxiv.org/abs/2510.15686) 2025.10
+
+* 提出了一种新的少样本学习框架，旨在解决多机器人系统的协调与轨迹执行问题
+* 通过时间图网络（TGN）学习任务无关的时间序列，并利用高斯过程（GP）进行连续的空间轨迹建模。使用光谱聚类提取关键交互依赖关系，应用图注意力网络（GAT）和门控递归单元（GRU）捕捉时间动态
+  * 通过时间图网络（TGN）学习任务无关的时间序列？
+  * 利用高斯过程（GP）进行连续的空间轨迹建模？
+  * 使用光谱聚类提取关键交互依赖关系？
+  * 应用图注意力网络（GAT）和门控递归单元（GRU）捕捉时间动态？
+
+[**Decentralized Multi-Robot Relative Navigation in Unknown, Structurally Constrained Environments under Limited Communication**](https://www.alphaxiv.org/abs/2510.09188) 2025.10
+
+* 去中心化的分层相对导航框架
+* 高层的“拓扑共享与全局引导（TSGG）”模块让每个机器人在偶遇时交换轻量级的拓扑地图，逐步形成对环境全局结构的认知，实现战略级路径规划，避免陷入拓扑陷阱
+  * 收到队友地图后，基于图像空间融合技术整合信息，形成一致的全局拓扑图
+* 底层的“冲突解决与轨迹规划（CRTP）”模块则负责实时处理本地动态避障和与其他机器人的冲突，通过创新的采样式“逃逸点”策略，在线生成可行的临时目标，灵活化解局部死锁
+
 [**It Takes Two: Learning Interactive Whole-Body Control Between Humanoid Robots**](https://www.alphaxiv.org/private/baf7f579-1353-48a2-a9a6-204624e69811) 2025.10
 
 * 将真人双人互动动作数据转换成机器人能理解和执行的参考动作
