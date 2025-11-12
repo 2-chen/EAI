@@ -48,7 +48,7 @@
  
 [**CRAFT: Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks**](https://www.alphaxiv.org/abs/2509.14380) 2025.10
 
-* LLMs和VLMs作为自动化教练，教会多机器人系统完成复杂的协作任务
+* LLMs和VLMs作为自动化教练，教会多机器人系统完成复杂的协作任务（将LLM和VLM的知识蒸馏到机器人上）
 * 利用LLM将复杂目标分解为子任务，用LLM生成奖励函数
 * VLM闭环：
   * 评估：观察机器人执行任务的情况
