@@ -219,6 +219,19 @@ $$
 
 [**RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints**](https://www.alphaxiv.org/abs/2503.16408) 2025.3
 
+* 如何自动、安全、高效地生成用于训练的数据
+* 组合式约束：将多机器人协作中复杂的、不成文的规则形式化和结构化的方法
+  * 逻辑约束：定义机器人与物体交互的正确方式，比如在拍照任务中应该抓住握柄而不是镜头
+  * 空间约束：确保机器人在共享的物理空间中不会互相碰撞，或者碰到其他物体
+  * 时间约束：管理机器人动作的执行时序和同步性，例如先打开盖子，才能把食物放进去，两个机器人可以同时移动，只要路径不冲突
+* RoboChecker检查器：接受来自LLM大脑的文本约束，转化为机器人可以理解和执行的约束接口
+  * 逻辑约束：检查末端执行器是否在标注好的正确交互点上
+  * 空间约束：深度摄像头或算法建立场景的3D占用地图，检测运动轨迹是否进入其他物体的占用空间
+  * 时间约束：分析轨迹在时间维度上的占用情况，判断是否存在时序错误或不合理等待
+* 安全性：直接让模型生成动作，容易出现互相碰撞的行为
+* 效率问题：自动生成数据？
+* 
+
 [**REMAC: Self-Reflective and Self-Evolving Multi-Agent Collaboration for Long-Horizon Robot Manipulation**](https://www.alphaxiv.org/abs/2503.22122) 2025.3
 
 [**EMOS: EMBODIMENT-AWARE HETEROGENEOUS MULTI-ROBOT OPERATING SYSTEM WITH LLM AGENTS**](https://www.alphaxiv.org/abs/2410.22662) 2025.2
