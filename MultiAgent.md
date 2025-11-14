@@ -147,7 +147,9 @@ $$
 * 应用课程学习提升长期协调能力：在训练中逐步增加专家演示轨迹长度，帮助机器人学习和执行需要长远规划和协调的复杂任务
 * 从全局数据中估计机器人的“自我中心视角”：选择邻居，坐标转换，注入噪声
 
-[**VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning**](https://faceong.github.io/VIKI-R/) 2025.6
+[**EMBODIEDBENCH: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents**](https://embodiedbench.github.io/) open 2025.6
+
+[**VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning**](https://faceong.github.io/VIKI-R/) open 2025.6
 
 * 让多种异构机器人在复杂的真实环境中，通过视觉感知进行有效协作
 * VIKI-Bench基准测试平台：针对异构多智能体协作的层级化基准
