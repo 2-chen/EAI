@@ -180,6 +180,8 @@ $$
 
 [**Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs**](https://danielchyeh.github.io/All-Angles-Bench/) open 2025.4
 
+* 多视角理解能力
+
 [**Conformal Data-driven Control of Stochastic Multi-Agent Systems under Collaborative Signal Temporal Logic Specifications**](https://www.alphaxiv.org/abs/2504.04615) 2025.4
 
 * 在不确定环境中为多智能体系统设计控制策略的新方法，智能体需要协同完成遵循复杂时序逻辑规则的任务
