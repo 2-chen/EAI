@@ -178,6 +178,8 @@ $$
 * 世界模型：
   * 针对具身智能体：模型接受每个智能体的第一人称视角观测和联合动作，预测未来的第一人称视角观测
 
+[**Seeing from Another Perspective: Evaluating Multi-View Understanding in MLLMs**](https://danielchyeh.github.io/All-Angles-Bench/) open 2025.4
+
 [**Conformal Data-driven Control of Stochastic Multi-Agent Systems under Collaborative Signal Temporal Logic Specifications**](https://www.alphaxiv.org/abs/2504.04615) 2025.4
 
 * 在不确定环境中为多智能体系统设计控制策略的新方法，智能体需要协同完成遵循复杂时序逻辑规则的任务
@@ -217,6 +219,8 @@ $$
 
 [**A Framework for Benchmarking and Aligning Task-Planning Safety in LLM-Based Embodied Agents**](https://www.alphaxiv.org/abs/2504.14650) 2025.4
 
+[**MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents**](https://www.alphaxiv.org/abs/2503.01935) open 2025.3
+
 [**ReloPush: Multi-object Rearrangement in Confined Spaces with a Nonholonomic Mobile Robot Pusher**](https://www.alphaxiv.org/abs/2409.18231) 2025.3
 
 * 让一个有非完整约束的移动机器人（不能横着走），在一个狭窄且堆满物体的空间里，通过推的方式，将多个物体重新排列到指定的目标位置
@@ -251,6 +255,8 @@ $$
 [**EMOS: EMBODIMENT-AWARE HETEROGENEOUS MULTI-ROBOT OPERATING SYSTEM WITH LLM AGENTS**](https://www.alphaxiv.org/abs/2410.22662) 2025.2
 
 [**Multi-Agent Collaboration Mechanisms: A Survey of LLMs**](https://www.alphaxiv.org/abs/2501.06322) 2025.1
+
+[**Large Language Model based Multi-Agents: A Survey of Progress and Challenges**](https://www.alphaxiv.org/abs/2402.01680) 2024.4
 
 [**Multi-Agent Motion Planning with B´ezier Curve Optimization under Kinodynamic Constraints**](https://www.alphaxiv.org/abs/2311.14145) 2024.3
 
