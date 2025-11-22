@@ -75,6 +75,13 @@
 * 得分取所有评论家评分的中位数
 * actor学习时每一轮让不同critic评分，以前是一个actor和一个critic配对
 
+[**A Framework for Scalable Heterogeneous Multi-Agent Adversarial Reinforcement Learning in IsaacLab**](https://directlab.github.io/IsaacLab-HARL/papers/paper-harl.html) open 2025.9
+
+* 在高保真物理仿真中进行大规模、异构、对抗性多智能体训练
+* 将异构性引入了对抗性学习
+* 为每个团队配置独立的评论家网络
+* 在观测空间中预留零填充的特征位，框架可以在课程后期无缝地引入新的观测信息，而无需重新训练整个模型
+
 [**Conflict-Based Search and Prioritized Planning for Multi-Agent Path Finding Among Movable Obstacles**](https://www.alphaxiv.org/abs/2509.26050) 2025.9
 
 * 多个智能体在可移动障碍物环境中寻找路径
@@ -146,6 +153,8 @@ $$
 
 * 应用课程学习提升长期协调能力：在训练中逐步增加专家演示轨迹长度，帮助机器人学习和执行需要长远规划和协调的复杂任务
 * 从全局数据中估计机器人的“自我中心视角”：选择邻居，坐标转换，注入噪声
+
+[**Heterogeneous multi-agent reinforcement learning for zero-shot scalable collaboration**](https://directlab.github.io/IsaacLab-HARL/papers/paper-harl.html) open 2025.6
 
 [**EMBODIEDBENCH: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents**](https://embodiedbench.github.io/) open 2025.6
 
