@@ -81,6 +81,7 @@
 * 将异构性引入了对抗性学习
 * 为每个团队配置独立的评论家网络
 * 在观测空间中预留零填充的特征位，框架可以在课程后期无缝地引入新的观测信息，而无需重新训练整个模型
+* 不同机器人协同对抗另一组不同机器人
 
 [**Conflict-Based Search and Prioritized Planning for Multi-Agent Path Finding Among Movable Obstacles**](https://www.alphaxiv.org/abs/2509.26050) 2025.9
 
