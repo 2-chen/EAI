@@ -75,13 +75,15 @@
 * 得分取所有评论家评分的中位数
 * actor学习时每一轮让不同critic评分，以前是一个actor和一个critic配对
 
-[**A Framework for Scalable Heterogeneous Multi-Agent Adversarial Reinforcement Learning in IsaacLab**](https://directlab.github.io/IsaacLab-HARL/papers/paper-harl.html) open 2025.9
+[**A Framework for Scalable Heterogeneous Multi-Agent Adversarial Reinforcement Learning in IsaacLab**](https://directlab.github.io/IsaacLab-HARL/papers/paper-harl-a.html) open 2025.9
 
 * 在高保真物理仿真中进行大规模、异构、对抗性多智能体训练
-* 将异构性引入了对抗性学习
-* 为每个团队配置独立的评论家网络
-* 在观测空间中预留零填充的特征位，框架可以在课程后期无缝地引入新的观测信息，而无需重新训练整个模型
+* 将 HAPPO (Heterogeneous Agent PPO) 算法扩展到竞争环境，引入了分队评论家机制，为每个团队配置独立的评论家网络
+* 新的基准环境：相扑、足球、空地拦截
+* 零缓冲课程学习：一种处理动态观测空间的课程学习方法，使得智能体可以从简单任务平滑过渡到复杂的对抗任务
+  * 在观测空间中预留零填充的特征位，框架可以在课程后期无缝地引入新的观测信息，而无需重新训练整个模型
 * 不同机器人协同对抗另一组不同机器人
+* 设计一个团队共享奖励，把对手作为一个整体，队友作为一个整体，比如奖励函数中奖励对手倒下的人数，惩罚队友倒下的人数
 
 [**Conflict-Based Search and Prioritized Planning for Multi-Agent Path Finding Among Movable Obstacles**](https://www.alphaxiv.org/abs/2509.26050) 2025.9
 
