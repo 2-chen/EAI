@@ -161,7 +161,7 @@ $$
 
 [**EMBODIEDBENCH: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents**](https://embodiedbench.github.io/) open 2025.6
 
-[**VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning**](https://faceong.github.io/VIKI-R/) open 2025.6
+[**VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning**](https://www.alphaxiv.org/abs/2506.09049) [open](https://faceong.github.io/VIKI-R/) 2025.6
 
 * 让多种异构机器人在复杂的真实环境中，通过视觉感知进行有效协作
 * VIKI-Bench基准测试平台：针对异构多智能体协作的层级化基准
