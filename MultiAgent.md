@@ -237,6 +237,8 @@ $$
 
 [**COHERENT: Collaboration of Heterogeneous Multi-Robot System with Large Language Models**](https://www.alphaxiv.org/abs/2409.15146) open 2025.3
 
+* 自反思反馈：当底层机器人执行失败时，它不是简单报错，而是会分析原因（如“无法到达”、“能力不足”）反馈给上层，上层再重新规划。这比单纯的单向指令下达要鲁棒得多（要利用每个机器人自身的计算能力，先自己处理再压缩成高级语义进行通信，简单高效很多）
+
 [**MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents**](https://www.alphaxiv.org/abs/2503.01935) open 2025.3
 
 * 衡量多智能体在复杂协作和竞争场景下的综合表现
