@@ -75,6 +75,8 @@
 * 得分取所有评论家评分的中位数
 * actor学习时每一轮让不同critic评分，以前是一个actor和一个critic配对
 
+[**RoboBallet: Planning for Multi-Robot Reaching with Graph Neural Networks and Reinforcement Learning**](https://www.alphaxiv.org/abs/2509.05397) 2025.9
+
 [**A Framework for Scalable Heterogeneous Multi-Agent Adversarial Reinforcement Learning in IsaacLab**](https://directlab.github.io/IsaacLab-HARL/papers/paper-harl-a.html) open 2025.9
 
 * 在高保真物理仿真中进行大规模、异构、对抗性多智能体训练
