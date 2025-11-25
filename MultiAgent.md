@@ -235,6 +235,8 @@ $$
 
 [**A Framework for Benchmarking and Aligning Task-Planning Safety in LLM-Based Embodied Agents**](https://www.alphaxiv.org/abs/2504.14650) 2025.4
 
+[**COHERENT: Collaboration of Heterogeneous Multi-Robot System with Large Language Models**](https://www.alphaxiv.org/abs/2409.15146) open 2025.3
+
 [**MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents**](https://www.alphaxiv.org/abs/2503.01935) open 2025.3
 
 * 衡量多智能体在复杂协作和竞争场景下的综合表现
@@ -288,5 +290,7 @@ $$
 [**Large Language Model based Multi-Agents: A Survey of Progress and Challenges**](https://www.alphaxiv.org/abs/2402.01680) 2024.4
 
 [**Multi-Agent Motion Planning with B´ezier Curve Optimization under Kinodynamic Constraints**](https://www.alphaxiv.org/abs/2311.14145) 2024.3
+
+[**Heterogeneous-Agent Reinforcement Learning**](https://www.alphaxiv.org/abs/2304.09870) open 2023.12
 
 [**Asynchronous Task Plan Refinement for Multi-Robot Task and Motion Planning**](https://www.alphaxiv.org/abs/2309.08897) 2023.9
