@@ -97,7 +97,7 @@
 
 [**RoboBallet: Planning for Multi-Robot Reaching with Graph Neural Networks and Reinforcement Learning**](https://www.alphaxiv.org/abs/2509.05397) 2025.9
 
-[**A Framework for Scalable Heterogeneous Multi-Agent Adversarial Reinforcement Learning in IsaacLab**](https://directlab.github.io/IsaacLab-HARL/papers/paper-harl-a.html) open 2025.9
+[**A Framework for Scalable Heterogeneous Multi-Agent Adversarial Reinforcement Learning in IsaacLab**](https://directlab.github.io/IsaacLab-HARL/papers/paper-harl-a.html) [open](https://directlab.github.io/IsaacLab-HARL/papers/paper-harl-a.html) 2025.9
 
 * 在高保真物理仿真中进行大规模、异构、对抗性多智能体训练
 * 将 HAPPO (Heterogeneous Agent PPO) 算法扩展到竞争环境，引入了分队评论家机制，为每个团队配置独立的评论家网络
