@@ -1,3 +1,5 @@
+[**VLA2: Empowering Vision-Language-Action Models with an Agentic Framework for Unseen Concept Manipulation**](https://www.alphaxiv.org/abs/2510.14902) [open](https://vla-2.github.io/) 2025.10
+
 [**SimpleVLA: Scaling VLA Training via Reinforcement Learnin**](https://www.alphaxiv.org/abs/2509.09674) 2025.9
 
 * 在模拟环境中强化学习，减少对人类演示数据的依赖
