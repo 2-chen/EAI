@@ -1,5 +1,13 @@
 [**VLA2: Empowering Vision-Language-Action Models with an Agentic Framework for Unseen Concept Manipulation**](https://www.alphaxiv.org/abs/2510.14902) [open](https://vla-2.github.io/) 2025.10
 
+* 不强迫VLA“硬背”所有没见过的物体，而是通过外部工具（网络搜索、视觉处理）把“陌生的概念”转化为“熟悉的概念”，然后再让机器人执行
+* 不仅是一个端到端的模型，而是一个包含规划、认知、记忆和执行的完整系统，将VLA模型作为执行的“手”，加上了“大脑”和“眼睛”来辅助
+* 即时学习机制： 利用网络搜索实时获取未知物体的知识，将其转化为视觉特征（如颜色、形状），从而实现Zero-shot识别
+* 双重“降维”打击（OOD转ID）：
+  * 视觉上： 通过覆盖透明色块（Mask），掩盖物体复杂的表面纹理，让机器人只关注位置和轮廓，减少视觉过拟合。
+  * 语言上： 将复杂的未知词汇（如具体的品牌名）替换为模型训练时见过的已知词汇（如“瓶子”、“碗”），让指令回到模型的舒适区
+* 使用MM-GroundingDINO检测物体。如果检测不到，系统会自动去互联网搜索该物体的图片，生成描述性关键词（颜色、形状），辅助检测模型重新定位物体
+
 [**SimpleVLA: Scaling VLA Training via Reinforcement Learnin**](https://www.alphaxiv.org/abs/2509.09674) 2025.9
 
 * 在模拟环境中强化学习，减少对人类演示数据的依赖
