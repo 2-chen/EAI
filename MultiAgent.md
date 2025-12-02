@@ -244,6 +244,9 @@ $$
 
 [**COHERENT: Collaboration of Heterogeneous Multi-Robot System with Large Language Models**](https://www.alphaxiv.org/abs/2409.15146) open 2025.3
 
+* COHERENT 框架：基于 LLM 的集中式分层架构，专门用于异构机器人的任务分配和协作
+* PEFA 机制：Proposal-Execution-Feedback-Adjustment（提议-执行-反馈-调整） 闭环机制，使得系统能够根据执行结果动态调整计划
+  * 任务分配者收到反馈后，结合历史信息更新认知。如果任务失败或仅部分完成，它会重新生成新的提议（Adjustment），直到最终目标达成
 * 自反思反馈：当底层机器人执行失败时，它不是简单报错，而是会分析原因（如“无法到达”、“能力不足”）反馈给上层，上层再重新规划。这比单纯的单向指令下达要鲁棒得多（要利用每个机器人自身的计算能力，先自己处理再压缩成高级语义进行通信，简单高效很多）
 
 [**MultiAgentBench : Evaluating the Collaboration and Competition of LLM agents**](https://www.alphaxiv.org/abs/2503.01935) open 2025.3
