@@ -58,7 +58,20 @@ VLA 模型的研究分为了三个主要方向：
 
 [**UniVLA: Learning to Act Anywhere with Task-centric Latent Actions**](https://www.alphaxiv.org/abs/2505.06111) 2025.5
 
-[**Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success**](https://www.alphaxiv.org/abs/2502.19645) 2025.4
+[**Fine-Tuning Vision-Language-Action Models: Optimizing Speed and Success**](https://www.alphaxiv.org/abs/2502.19645) [open](https://openvla-oft.github.io/) 2025.4
+
+* 针对 VLA 模型的优化微调（Optimized Fine-Tuning, OFT）
+* 从“自回归解码”改为“并行解码” 
+  * 旧方法：预测完 x 坐标 Token 再预测 y 坐标 Token。
+  * 新方法：修改 Transformer 的注意力掩码（Mask），从因果掩码（Causal Mask）改为双向注意力（Bidirectional Attention）。模型一次性接收所有输入的视觉和语言特征，并并行输出所有的动作维度。
+  * 优势：将动作生成的复杂度从 $O(D)$ 降低到 $O(1)$（D 为动作维度）
+* 引入“动作分块” 
+  * 利用并行解码的能力，模型在一次前向传播中不仅预测当前的动作，还预测未来 $K$ 个时间步的动作序列（例如 $K=8$ 或 $K=25$）。
+  * 优势：减少了需要调用模型的频率，平滑了动作轨迹，并显著提升了长视距任务的成功率
+* 
+
+
+优势： 将动作生成的复杂度从 $O(D)$ 降低到 $O(1)$（D 为动作维度），极大提升了推理吞吐量
 
 [**CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models**](https://www.alphaxiv.org/abs/2503.22020) 2025.3
 
