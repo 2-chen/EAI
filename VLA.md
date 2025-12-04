@@ -55,6 +55,12 @@ VLA 模型的研究分为了三个主要方向：
   * 处理'\<BOD\>'之后的部分时，被训练来执行扩散任务，将带噪声的扩散动作词元作为输入，预测噪声从而实现去噪
   * 处理'\<EOD\>'之后的部分时，切换回自回归任务，基于前面的信息包括已去噪的扩散动作，逐个输出离散的[自回归动作词元]
 * 扩散模型生成连续空间中精确的浮点数值，自回归模型将连续的动作分割成有限的离散桶而导致精度丢失，所以扩散模型控制精度比自回归模型高
+  
+[**InteractivePost-Trainingfor Vision-Language-ActionModels**](https://www.alphaxiv.org/abs/2505.17016) [open](https://github.com/Ariostgx/ript-vla) 2025.5
+
+* 优势估计RLOO $A_k = R_k - \frac{1}{K-1} \sum_{j \neq k} R_j$ ，使得模型能够判断某次尝试比平均水平好还是坏
+* 动态拒绝采样：如果一组采样的奖励方差为0（全0或全1），直接丢弃这组数据，重新采样直到有差异
+* 第三阶段：模型与环境进行交互得到奖励信号，通过策略梯度更新模型权重，某些动作导致任务成功则增加这些动作的概率
 
 [**UniVLA: Learning to Act Anywhere with Task-centric Latent Actions**](https://www.alphaxiv.org/abs/2505.06111) 2025.5
 
