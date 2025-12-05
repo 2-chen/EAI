@@ -306,3 +306,5 @@ $$
 [**Heterogeneous-Agent Reinforcement Learning**](https://www.alphaxiv.org/abs/2304.09870) open 2023.12
 
 [**Asynchronous Task Plan Refinement for Multi-Robot Task and Motion Planning**](https://www.alphaxiv.org/abs/2309.08897) 2023.9
+
+[**RoCo: Dialectic Multi-Robot Collaboration with Large Language Models**]() [open](https://project-roco.github.io/) 2025.7
