@@ -3,6 +3,10 @@
 * LatentMAS 实现了端到端的协作，智能体之间的思考和交流完全在连续的向量空间中进行，直到最后才解码成文本
 * 当 Agent A 完成思考后，它的 KV Cache（包含了输入信息和它刚刚生成的隐思维）会被直接拼接到 Agent B 的 Transformer 层中
 
+[**Beyond ReAct: A Planner-Centric Framework for Complex Tool-Augmented LLM Reasoning**](https://www.alphaxiv.org/abs/2511.10037) 2025.11
+
+* 设计输出为全局 DAG 规划：模型不是生成线性的步骤，而是一次性生成一个有向无环图 (DAG)，其中节点代表工具，边代表依赖关系。这使得系统能够识别并行执行的机会，并从全局视角优化流程
+
 [**Manifold-constrained Hamilton-Jacobi Reachability Learning for Decentralized Multi-Agent Motion Planning**](https://www.alphaxiv.org/abs/2511.03591v1) 2025.11
 
 [**VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning**](https://www.alphaxiv.org/abs/2506.09049) [open](https://faceong.github.io/VIKI-R/) 2025.10
