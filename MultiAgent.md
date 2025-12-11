@@ -1,4 +1,4 @@
-[**Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation**] [open](https://github.com/Shiy-Li/ARG-Designer) 2025.11
+[**Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation**](https://www.alphaxiv.org/abs/2507.18224) [open](https://github.com/Shiy-Li/ARG-Designer) 2025.11
 
 * 自动设计多智能体系统的通信拓扑结构，根据用户输入从零开始动态地组建一支团队并设计沟通流程
 * 现有方法：
@@ -13,6 +13,7 @@
   * 边生成：选定新节点后，使用另一个GRU_node遍历之前已存在的所有节点，逐个判断是否需要建立从旧节点到新节点的连接，通过MLP处理隐藏状态进行判断
 * 训练：使用复杂的、资源丰富的图结构进行训练，教会模型如何生成正确的图（也是数据驱动）
 * 微调：使用经过剪枝的、极简的图结构进行微调，教会模型在保证正确率的前提下生成更稀疏的拓扑
+* 传统方法会受原始模板图节点数的限制，比如模板图是5个节点，就剪不出6个节点的图，而ARG可以生成6个节点的图
 
 *想法*：这个数据集是否有通用性，或者模型是否有通用性，直接调用来服务coffee demo
 
