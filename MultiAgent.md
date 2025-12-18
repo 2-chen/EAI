@@ -271,6 +271,8 @@ $$
 
 [**A Framework for Benchmarking and Aligning Task-Planning Safety in LLM-Based Embodied Agents**](https://www.alphaxiv.org/abs/2504.14650) 2025.4
 
+[****]
+
 [**COHERENT: Collaboration of Heterogeneous Multi-Robot System with Large Language Models**](https://www.alphaxiv.org/abs/2409.15146) open 2025.3
 
 * COHERENT 框架：基于 LLM 的集中式分层架构，专门用于异构机器人的任务分配和协作
@@ -336,4 +338,10 @@ $$
 
 [**Asynchronous Task Plan Refinement for Multi-Robot Task and Motion Planning**](https://www.alphaxiv.org/abs/2309.08897) 2023.9
 
-[**RoCo: Dialectic Multi-Robot Collaboration with Large Language Models**]() [open](https://project-roco.github.io/) 2025.7
+[**RoCo: Dialectic Multi-Robot Collaboration with Large Language Models**](https://www.alphaxiv.org/abs/2307.04738) [open](https://project-roco.github.io/) 2023.7
+
+* 对话式协作，赋予每个机器人一个身份，让他们通过自然语言对话来商量策略，提高可解释性
+* LLM生成具体的任务空间路径点，作为底层运动规划器的提示（VIKI-R的L3轨迹感知）
+* 环境反馈闭环：物理环境到语言环境的反馈机制，若LLM生成的计划在物理上不可行，环境会生成文本形式的错误反馈，让LLM进行上下文学习并修正计划
+
+
