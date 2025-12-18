@@ -271,7 +271,14 @@ $$
 
 [**A Framework for Benchmarking and Aligning Task-Planning Safety in LLM-Based Embodied Agents**](https://www.alphaxiv.org/abs/2504.14650) 2025.4
 
-[****]
+[**DART-LLM: Dependency-Aware Multi-Robot Task Decomposition and Execution using Large Language Models**](https://www.alphaxiv.org/abs/2411.09022) [open](https://wyd0817.github.io/project-dart-llm/) 2025.3
+
+* 基于有向无环图DAG的依赖感知任务分解：强制LLM输出每个子任务的依赖关系列表
+* 不生成Python而是生成结构化的JSON指令，实现从自然语言到ROS2机器人控制的闭环
+* 利用VLM和CLIP模型对环境进行实时监测
+* QA-LLM结合环境信息和机器人技能库，将指令分解为子任务，格式为结构化的JSON，明确包含每个子任务的dependencies
+* 解析器根据JSON构建DAG图？
+* 
 
 [**COHERENT: Collaboration of Heterogeneous Multi-Robot System with Large Language Models**](https://www.alphaxiv.org/abs/2409.15146) open 2025.3
 
