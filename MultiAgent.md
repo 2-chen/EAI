@@ -1,3 +1,7 @@
+[**Adaptation of Agentic AI**](https://www.alphaxiv.org/abs/2512.16301) [open](https://github.com/pat-jj/Awesome-Adaptation-of-Agentic-AI) 2025.12
+
+* 
+
 [**Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation**](https://www.alphaxiv.org/abs/2507.18224) [open](https://github.com/Shiy-Li/ARG-Designer) 2025.11
 
 * 自动设计多智能体系统的通信拓扑结构，根据用户输入从零开始动态地组建一支团队并设计沟通流程
