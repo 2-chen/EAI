@@ -2,16 +2,15 @@
 
 * 代理式AI适配的综述
 * 代理式AI适配策略的统一分类框架：四大适配范式
-  * A1：基于工具执行信号的agent适配
-  * A2：基于agent输出信号的agent适配
-  * T1：agent无关的工具适配
-  * T2：agent监督的工具适配
+  * A1：基于工具执行信号的agent适配，agent生成调用代码，工具执行后将结果作为奖励信号更新agent参数，看过程，即工具的结果不是整体的结果
+  * A2：基于agent输出信号的agent适配，agent使用工具产生最终答案作为奖励信号更新agent参数，看结果
+  * T1：agent无关的工具适配，使用预训练好的工具（检索器、计算器、API），通用型
+  * T2：agent监督的工具适配，利用agent的反馈来训练工具，定制型
 * 共生反转：训练工具去服务一个冻结的agent
 * 子智能体即工具：训练小型的、专门的子智能体（如搜索器、规划器）作为大模型的工具，而不是微调大模型本身
 * 基础模型在向代理式AI转化过程中存在问题：
   * LLM处理复杂、长程任务时，经常面临工具使用不可靠、规划能力不足、领域知识缺失等问题，单纯提示词工程不够
   * 设计权衡不明确：选择困难，微调昂贵的大模型还是优化外部的检索器/解释器
-* 
 
 [**Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation**](https://www.alphaxiv.org/abs/2507.18224) [open](https://github.com/Shiy-Li/ARG-Designer) 2025.11
 
