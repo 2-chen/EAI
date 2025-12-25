@@ -293,7 +293,6 @@ $$
 * 利用VLM和CLIP模型对环境进行实时监测
 * QA-LLM结合环境信息和机器人技能库，将指令分解为子任务，格式为结构化的JSON，明确包含每个子任务的dependencies
 * 解析器根据JSON构建DAG图？
-* 
 
 [**COHERENT: Collaboration of Heterogeneous Multi-Robot System with Large Language Models**](https://www.alphaxiv.org/abs/2409.15146) open 2025.3
 
