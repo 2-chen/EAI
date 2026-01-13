@@ -331,7 +331,7 @@ $$
 
 *想法*：人为设计一个图结构来表示数据或环境，可以让模型更好地学习
 
-[**RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints**](https://www.alphaxiv.org/abs/2503.16408) 2025.3
+[**RoboFactory: Exploring Embodied Agent Collaboration with Compositional Constraints**](https://www.alphaxiv.org/abs/2503.16408) [open](https://iranqin.github.io/robofactory/) 2025.3
 
 * 如何自动、安全、高效地生成用于训练的数据
 * 组合式约束：将多机器人协作中复杂的、不成文的规则形式化和结构化的方法
