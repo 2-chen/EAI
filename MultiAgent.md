@@ -1,3 +1,6 @@
+[**Multi-agent cooperation through in-context co-player inference**](https://www.alphaxiv.org/abs/2602.16301) 2026.2
+* 
+
 [**Adaptation of Agentic AI**](https://www.alphaxiv.org/abs/2512.16301) [open](https://github.com/pat-jj/Awesome-Adaptation-of-Agentic-AI) 2025.12
 
 * 代理式AI适配的综述
