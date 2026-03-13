@@ -1,3 +1,10 @@
+[**OpenClaw-RL: Train Any Agent Simply by Talking**](https://www.alphaxiv.org/abs/2603.10165) [open](https://github.com/Gen-Verse/OpenClaw-RL) 2026.3
+
+* 将下一轮对话作为上一轮的评估，比如用户的追问，终端的报错信息，且用户往往还会指导具体怎么做，利用好下一状态的信息
+  * 二元强化学习：看到用户回复或终端反馈时，通过多数投票机制给出+1、-1、0的标量奖励
+  * 针对标量奖励无法提供修改方向的问题，从反馈中提取精简的提示，把提示拼接在原问题后面，再生成一次答案，此时答案质量较高，对比有无提示的答案，若某个词的概率提高了就鼓励多生成该词，反之抑制，获得每个词的修改方向
+* 一个模型一边在前端推理服务用户，一边在后端接收奖励模型的裁判，同时训练更新权重，不发生阻塞
+
 [**Vision-Language-Policy Model for Dynamic Robot Task Planning**](https://www.alphaxiv.org/abs/2512.19178?chatId=019b7320-5e1b-7862-9109-2e7f55386789) [open](https://robovlp.github.io/) 2025.12
 
 [**RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning**](https://www.alphaxiv.org/abs/2510.14830) 2025.10
