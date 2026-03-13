@@ -1,5 +1,6 @@
 [**Multi-agent cooperation through in-context co-player inference**](https://www.alphaxiv.org/abs/2602.16301) 2026.2
-* 
+ 
+[**MetaGen: Self-Evolving Roles and Topologies for Multi-Agent LLM Reasoning**](https://www.alphaxiv.org/abs/2601.19290v1) 2026.1
 
 [**Adaptation of Agentic AI**](https://www.alphaxiv.org/abs/2512.16301) [open](https://github.com/pat-jj/Awesome-Adaptation-of-Agentic-AI) 2025.12
 
